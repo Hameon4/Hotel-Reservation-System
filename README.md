@@ -7,4 +7,4 @@ To run the website, do the following simple steps:
 2.1) On a mac, just click start all. On the network tab, enable port 8080, then finally at the volumes tab, select mount to access lamp folder. 
 3) Open the lamp folder --> htdocs --> copy and past the files there. The website should be up and running on a browser.
 
-On either OS, you can run them now by simply typing 'localhost:8080/downloadedfolername'
+On either OS, you can run them now by simply typing 'localhost:8080/downloaded_folder_name'
