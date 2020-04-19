@@ -31,7 +31,7 @@
       <option>Family</option>
     </select>
 
-    <label>Choose a room:</label>
+    <label>Choose a room number:</label>
     <input type="number" placeholder="Room Number" name="roomNumber" min="1" max="400"/>
 
     <label style="padding-left: 30px;">Choose your payment method:</label>
