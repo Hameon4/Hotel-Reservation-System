@@ -38,7 +38,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php" style="font-size: 35px;">ADHRS</a>
+      <a class="navbar-brand" href="index.php" style="font-size: 35px; color: darkorange;">ADHRS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -49,11 +49,11 @@
         if (isset($_SESSION['userId'])) {
           echo '<div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="#rooms" class="nav-link">Rooms</a></li>
-              <li class="nav-item"><a href="#menu" class="nav-link">Restaurant Menu</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+              <li class="nav-item active"><a href="#home" class="nav-link" style="color: lightgreen;">Home</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link" style="color: lightgreen;">Services</a></li>
+              <li class="nav-item"><a href="#rooms" class="nav-link" style="color: lightgreen;">Rooms</a></li>
+              <li class="nav-item"><a href="#menu" class="nav-link" style="color: lightgreen;">Restaurant Menu</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link" style="color: lightgreen;">About Us</a></li>
             </ul>
 
             <form action="includes/logout.inc.php" method="post">
@@ -61,6 +61,12 @@
 
           </form>
           </div';
+
+          if($_SESSION['userId'] == 24) {
+            echo '<form method="post">
+            <button type="submit"><a href="Admin.php" style="font-size: 16px;">Admin Panel</a></button>
+            </form>';
+          }
         }
         else {
           echo '<form action="includes/login.inc.php" method="post">

@@ -15,10 +15,10 @@
     <input type="text" placeholder="Username" name="username"/><br><br><br>
 
       <label for="email">Checkin Date: </label>
-      <input type="date" id="days" placeholder="Days" name="checkin-date"/>
+      <input type="date" placeholder="Days" name="checkin-date"/>
 
       <label for="email" style="padding-left: 30px;">Checkout Date: </label>
-      <input type="date" id="days2" placeholder="Days" name="checkout-date"/>
+      <input type="date" placeholder="Days" name="checkout-date"/>
   </div>
 
   <div class="formBox" style="padding-top: 30px; text-align: center;">
@@ -30,6 +30,9 @@
       <option>King-Sized</option>
       <option>Family</option>
     </select>
+
+    <label>Choose a room:</label>
+    <input type="number" placeholder="Room Number" name="roomNumber" min="1" max="400"/>
 
     <label style="padding-left: 30px;">Choose your payment method:</label>
     <select name="payment-type">

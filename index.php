@@ -3,18 +3,18 @@
  ?>
 
  <main>
-   <?php
-    if (isset($_SESSION['userId'])) {
-      echo '  <script>
-                alert("You are logged in!");
-              </script>';
-    }
-    else {
-      echo '<script>
-                alert("You are logged out!");
-              </script>';
-    }
-    ?>
+   <!-- <?php
+    //if (isset($_SESSION['userId'])) {
+    //  echo '  <script>
+              //  alert("You are logged in!");
+            //  </script>';
+  //  }
+  //  else {
+    //  echo '<script>
+              //  alert("You are logged out!");
+            //  </script>';
+  //  }
+    ?> -->
     <!-- Body layout -->
     <div class="block-31" style="position: relative;" id="home">
       <div class="owl-carousel loop-block-31 ">
@@ -31,6 +31,7 @@
                   else {
                     echo '<p><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
+
                 ?>
               </div>
             </div>
@@ -67,6 +68,7 @@
                   else {
                     echo '<p><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
+
                 ?>
               </div>
             </div>
