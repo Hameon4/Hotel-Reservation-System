@@ -42,7 +42,7 @@
        Re-enter your password: <br> <input type="password" name="pwd-repeat" placeholder="Repeat password"><br><br>
    </div>
 
-     
+
    <button type="submit" name="signup-submit" style="margin-left: 650px; margin-bottom: 90px; margin-top: 80px;">Signup</button>
    </form>
  </main>

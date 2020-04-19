@@ -15,7 +15,7 @@
      $stmt = mysqli_stmt_init($conn);
 
      if(!mysqli_stmt_prepare($stmt, $sql)) {
-       header("Location: ../signup.php?error=sqlerror");
+       header("Location: ../booking.php?error=sqlerror");
        exit();
      }
 
@@ -24,7 +24,7 @@
        mysqli_stmt_bind_param($stmt, "ssssss", $username, $checkinDate, $checkoutDate, $roomType, $paymentType, $roomNumber);
        mysqli_stmt_execute($stmt);
        // mysqli_stmt_store_result($stmt); for fecthing from database purposes
-       header("Location: ../index.php?signup=success");
+       header("Location: ../booking.php?signup=success");
        exit();
      }
    }

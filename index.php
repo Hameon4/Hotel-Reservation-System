@@ -23,13 +23,13 @@
             <div class="row align-items-center">
               <div class="col-md-10">
                 <span class="subheading-sm">Welcome to the</span>
-                <h2 class="heading">Alain Dream Hotel Reservation System</h2>
+                <h2 class="heading">Alain Dream Hotel</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
                     echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
 
                 ?>
@@ -42,13 +42,13 @@
             <div class="row align-items-center">
               <div class="col-md-10">
                 <span class="subheading-sm">Welcome</span>
-                <h2 class="heading">Bigger &amp; Better</h2>
+                <h2 class="heading">Bigger & Better</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
                     echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
                 ?>
               </div>
@@ -60,13 +60,13 @@
             <div class="row align-items-center">
               <div class="col-md-10">
                 <span class="subheading-sm">Welcome</span>
-                <h2 class="heading">All the Best Foods &amp; Drinks</h2>
+                <h2 class="heading">Great Foods & Drinks</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
                     echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
 
                 ?>
