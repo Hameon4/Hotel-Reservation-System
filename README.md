@@ -21,7 +21,7 @@ For Mac:
 6) Open finder --> Locations --> IP Address --> lampp --> htdocs --> copy and paste the zip folder and unzip it
 7) Open a browser and type in the url: localhost:8080/phpmyadmin.
 8) Create a database called 'loginsystemhotel'.
-9) In that database, open the SQL code tab then copy and paste the code in the sql file. This will create two tables. 
+9) In that database, open the SQL code tab then copy and paste the code from the sql file. This will create two tables. 
 10) Finally, type in the url: localhost:8080/folderName to run the website.
 
 
