@@ -12,6 +12,7 @@
           <ul>
             <li>Hamad Alsheraifi</li>
             <li>Mohammed Alaryani</li>
+            <li>Hassan Alali</li>
           </ul>
         </p>
       </div>
@@ -34,9 +35,8 @@
     <div class="row pt-5">
       <div class="col-md-12 text-left">
         <p>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          SWEB300 Spring &copy;<script>document.write(new Date().getFullYear());</script></a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+<!--           SWEB300 Spring &copy;<script>document.write(new Date().getFullYear());</script> -->
         </p>
       </div>
     </div>
