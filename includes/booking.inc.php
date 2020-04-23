@@ -22,12 +22,19 @@
      }
 
      else {
+       if (empty($username) || empty($checkinDate) || empty($checkoutDate) || empty($roomType) || empty($paymentType)
+       || empty($roomNumber)) {
+         header("Location: ../booking.php?error=emptyfields".$username);
+         exit(); //This prevents any code below this to run incase the user makes an error in booking
+       }
 
+       else {
        mysqli_stmt_bind_param($stmt, "ssssss", $username, $checkinDate, $checkoutDate, $roomType, $paymentType, $roomNumber);
        mysqli_stmt_execute($stmt);
        // mysqli_stmt_store_result($stmt); for fecthing from database purposes
-       header("Location: ../booking.php?signup=success");
+       header("Location: ../booking.php?booking=success");
        exit();
+     }
      }
    }
  //}
