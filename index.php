@@ -3,22 +3,9 @@
  ?>
 
  <main>
-   <!-- <?php
-    //if (isset($_SESSION['userId'])) {
-    //  echo '  <script>
-              //  alert("You are logged in!");
-            //  </script>';
-  //  }
-  //  else {
-    //  echo '<script>
-              //  alert("You are logged out!");
-            //  </script>';
-  //  }
-    ?> -->
-    <!-- Body layout -->
     <div class="block-31" style="position: relative;" id="home">
       <div class="owl-carousel loop-block-31 ">
-        <div class="block-30 item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <div class="block-30 item" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-10">
@@ -31,13 +18,12 @@
                   else {
                     echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
                   }
-
-                ?>
+                  ?>
               </div>
             </div>
           </div>
         </div>
-        <div class="block-30 item" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+        <div class="block-30 item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-10">

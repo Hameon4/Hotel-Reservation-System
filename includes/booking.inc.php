@@ -9,6 +9,8 @@
      $roomType = $_POST['roomType'];
      $paymentType = $_POST['payment-type'];
      $roomNumber = $_POST['roomNumber'];
+     // $numOfDays = $_POST['numDays1'];
+     // $bill = $_POST['numDays'];
 
 
      $sql = "INSERT INTO booking (uidUsers, checkinDate, checkoutDate, roomType, paymentType, roomNumber) VALUES (?, ?, ?, ?, ?, ?)";
