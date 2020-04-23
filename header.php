@@ -62,7 +62,7 @@
           </form>
           </div';
 
-          if($_SESSION['userId'] == 24) {
+          if($_SESSION['userUid'] == 'admin') {
             echo '<form method="post">
             <button type="submit"><a href="Admin.php" style="font-size: 16px;">Admin Panel</a></button>
             </form>';

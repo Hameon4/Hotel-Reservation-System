@@ -121,7 +121,3 @@
 <button type="submit" onclick="receipt() "name="book-submit" style="margin-left: 650px; margin-bottom: 90px; margin-top: 80px;">Book Now</button>
 </form>
 </main>
-
- <?php
- require 'footer.php';
-  ?>
