@@ -72,7 +72,7 @@
   <form action="includes/booking.inc.php" method="post">
 
   <div class="formBox" style="padding-top: 60px; text-align: center;">
-    Please type in the username as displayed in the placeholder <br><br>
+    Please type in your username as displayed in the placeholder <br><br>
     <label for="email">Username<sup style="color:red">*</sup> : </label>
     <input type="text" placeholder="<?php echo $_SESSION['userUid']; ?>" name="username" id="username"/><br><br><br>
     <hr>
