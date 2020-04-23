@@ -24,4 +24,4 @@ For Mac:
 9) In that database, open the SQL code tab then copy and paste the code from the sql file. This will create two tables. 
 10) Finally, type in the url: localhost:8080/folderName to run the website.
 
-
+To create an admin, simply create an account on the website itself for the admin with the username as admin. This is for the purpose of logging in to the admin panel.
