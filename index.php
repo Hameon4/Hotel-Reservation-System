@@ -13,10 +13,10 @@
                 <h2 class="heading">Alain Dream Hotel</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
-                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
+                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Sign Up</a></p>';
                   }
                   ?>
               </div>
@@ -31,10 +31,10 @@
                 <h2 class="heading">Bigger & Better</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
-                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
+                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Sign Up</a></p>';
                   }
                 ?>
               </div>
@@ -49,10 +49,10 @@
                 <h2 class="heading">Great Foods & Drinks</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
-                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Book Now</a></p>';
+                    echo '<p><a href="booking.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Book Now</a></p>';
                   }
                   else {
-                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 30px;">Sign Up</a></p>';
+                    echo '<p><span class="subheading-sm">For More Features</span><br><a href="signup.php" class="btn py-4 px-5 btn-primary" style="font-size: 20px;">Sign Up</a></p>';
                   }
 
                 ?>
@@ -271,9 +271,16 @@
                             <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
+                            <h2 class="heading">Arabian Breakfast</h2>
+                            <p>
+                              <ul>
+                                <li>Fool and tameya</li>
+                                <li>Shakshuka</li>
+                                <li>Manoucheh zaatar</li>
+                                <li>Falafel, labneh with olive oil and green olives</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">30.75-45.5</span></div>
                           </div>
                         </div>
                       </div>
@@ -284,9 +291,16 @@
                             <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
+                            <h2 class="heading">Asian Breakfast</h2>
+                            <p>
+                              <ul>
+                                <li>Vietnamese banh mi op la (Fried Egg)</li>
+                                <li>Japanese Omurice (Fried Rice Omelette)</li>
+                                <li>Filipino Tamales</li>
+                                <li>Chinese Jianbing (Savory Crepe)</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">50-65.25</span></div>
                           </div>
                         </div>
                       </div>
@@ -297,9 +311,16 @@
                             <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
+                            <h2 class="heading">European Breakfast</h2>
+                            <p>
+                              <ul>
+                                <li>Rye Bread</li>
+                                <li>French Baguettes & Jam</li>
+                                <li>Churros & Chocolate</li>
+                                <li>The Full English Breakfast</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">40.25-50.5</span></div>
                           </div>
                         </div>
                       </div>
@@ -310,65 +331,19 @@
                             <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
+                            <h2 class="heading">More Continental Breakfasts</h2>
+                            <p>
+                              <ul>
+                                <li>North American Dishes</li>
+                                <li>South American Dishes</li>
+                                <li>Australian Dishes</li>
+                                <li>More!</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">30.25-50.0</span></div>
                           </div>
                         </div>
                       </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
 
                     </div>
                   </div>
@@ -386,9 +361,16 @@
                             <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
+                            <h2 class="heading">Arabian Lunch</h2>
+                            <p>
+                              <ul>
+                                <li>Biriyani Chicken</li>
+                                <li>Saloona Chicken</li>
+                                <li>Fish Matchboos</li>
+                                <li>Adobo Chicken</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">45.5-60.25</span></div>
                           </div>
                         </div>
                       </div>
@@ -399,9 +381,16 @@
                             <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
+                            <h2 class="heading">Asian Lunch</h2>
+                            <p>
+                              <ul>
+                                <li>Shrimp and Broccoli Stir Fry</li>
+                                <li>CPK’s Kung Pao Spaghetti</li>
+                                <li>Crab Rangoon Dip</li>
+                                <li>Thai Stir Fried Noodles (Pad See Ew)</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">50.35-70.25</span></div>
                           </div>
                         </div>
                       </div>
@@ -412,9 +401,16 @@
                             <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
+                            <h2 class="heading">European Lunch</h2>
+                            <p>
+                              <ul>
+                                <li>Oysters</li>
+                                <li>Beef Steak</li>
+                                <li>Salad With Olive Oil</li>
+                                <li>Lasagna</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">45.45-65.5</span></div>
                           </div>
                         </div>
                       </div>
@@ -425,65 +421,19 @@
                             <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
+                            <h2 class="heading">Much More Continental Lunch!</h2>
+                            <p>
+                              <ul>
+                                <li>North American Dishes</li>
+                                <li>South American Dishes</li>
+                                <li>Australian Dishes</li>
+                                <li>More!</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">45.45-65.25</span></div>
                           </div>
                         </div>
                       </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
 
                     </div>
                   </div>
@@ -499,9 +449,16 @@
                             <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
+                            <h2 class="heading">Arabian Dinner</h2>
+                            <p>
+                              <ul>
+                                <li>Saudi Arabian Chicken Kabsa</li>
+                                <li>Palestinian Musakhan</li>
+                                <li>Moroccan Chicken Tagine</li>
+                                <li>Slow Cooker Chicken Shawarma</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">20.25-35.5</span></div>
                           </div>
                         </div>
                       </div>
@@ -512,9 +469,16 @@
                             <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
+                            <h2 class="heading">Asian Dinner</h2>
+                            <p>
+                              <ul>
+                                <li>Thai-style fishcakes with sweet and sour cucumber pickle</li>
+                                <li>Beef tataki rolls</li>
+                                <li>Asian lettuce wraps</li>
+                                <li>Chicken-fried chicken with peanut soy</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">30.0-40.5</span></div>
                           </div>
                         </div>
                       </div>
@@ -525,9 +489,16 @@
                             <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
+                            <h2 class="heading">European Dinner</h2>
+                            <p>
+                              <ul>
+                                <li>Orecchiette with Kale and Spicy Pangrattto</li>
+                                <li>Spanish Baked Paella with Prawns, Tenderstem and Peppers</li>
+                                <li>Gorgonzola, Steak, Guinness and Potato Pie</li>
+                                <li>Baked Cod in a Chorizo Broth</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">25.5-35.5/span></div>
                           </div>
                         </div>
                       </div>
@@ -538,65 +509,19 @@
                             <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
                           </div>
                           <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
+                            <h2 class="heading">More Continental Dinner Waiting!</h2>
+                            <p>
+                              <ul>
+                                <li>North American Dishes</li>
+                                <li>South American Dishes</li>
+                                <li>Australian Dishes</li>
+                                <li>More!</li>
+                              </ul>
+                            </p>
+                            <div class="price"><sup>AED</sup><span class="number">20.0-40.25</span></div>
                           </div>
                         </div>
                       </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Asparagus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">30.50</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">23.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">45.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image">
-                            <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                          </div>
-                          <div class="text">
-                            <h2 class="heading">Spicy Noodles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                            <div class="price"><sup>AED</sup><span class="number">33.45</span></div>
-                          </div>
-                        </div>
-                      </div>
-
 
                     </div>
                   </div>

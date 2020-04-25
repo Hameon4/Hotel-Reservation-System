@@ -3,7 +3,7 @@
     <div class="row mb-5">
       <div class="col-md-6 col-lg-4">
         <h3 class="heading-section">About Us</h3>
-        <p class="mb-5">SWEB300 term project on making a gui app based on functional and nonfunctional requirements, including the use case model.</p>
+        <p class="mb-5">SWEB300 term project on making a GUI based on the functional and nonfunctional requirements we made for the system, the use case model, and the sequence diagram.</p>
       </div>
 
       <div class="col-md-6 col-lg-4">
@@ -12,6 +12,7 @@
           <ul>
             <li>Hamad Alsheraifi</li>
             <li>Mohammed Alaryani</li>
+            <li>Hassan Alali</li>
           </ul>
         </p>
       </div>

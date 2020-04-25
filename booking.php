@@ -72,7 +72,7 @@
   <form action="includes/booking.inc.php" method="post">
 
   <div class="formBox" style="padding-top: 60px; text-align: center;">
-    Please type in your username as displayed in the placeholder <br><br>
+    Please type in the username as displayed in the placeholder <br><br>
     <label for="email">Username<sup style="color:red">*</sup> : </label>
     <input type="text" placeholder="<?php echo $_SESSION['userUid']; ?>" name="username" id="username"/><br><br><br>
     <hr>
@@ -109,7 +109,7 @@
    <p></p>
 
     <label>Choose a room number:</label>
-    <input type="number" placeholder="Room Number" name="roomNumber" id="roomNum" min="1" max="400"/><br>
+    <input type="number" name="roomNumber" id="roomNum" min="1" max="400"/><br>
 
     <label style="padding-left: 30px;">Choose your payment method<sup style="color:red">*</sup> :</label>
     <select name="payment-type" id="pay">
