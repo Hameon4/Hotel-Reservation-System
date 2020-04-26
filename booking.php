@@ -60,7 +60,7 @@
   </div>
   <?php
   if ($_GET['booking'] == "success") {
-      echo '<p class="signupsuccess" style="color: green; text-align: center;">Booking Successful. You will be contacted shortly for your bill.</p>';
+      echo '<p class="signupsuccess" style="color: green; text-align: center;">Booking Successful.</p>';
   }
 
   else if(isset($_GET['error'])) {
