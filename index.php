@@ -9,7 +9,16 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-10">
-                <span class="subheading-sm">Welcome to the</span>
+                <span class="subheading-sm">
+                  <?php
+                    if (isset($_SESSION['userUid'])){
+                      echo $_SESSION['userUid'];
+                    }
+                    else {
+                      echo "Welcome to the";
+                    }
+                   ?>
+                </span>
                 <h2 class="heading">Alain Dream Hotel</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
@@ -27,7 +36,16 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-10">
-                <span class="subheading-sm">Welcome</span>
+                <span class="subheading-sm">
+                  <?php
+                    if (isset($_SESSION['userUid'])){
+                      echo $_SESSION['userUid'];
+                    }
+                    else {
+                      echo "Welcome";
+                    }
+                   ?>
+                </span>
                 <h2 class="heading">Bigger & Better</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
@@ -45,7 +63,16 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-10">
-                <span class="subheading-sm">Welcome</span>
+                <span class="subheading-sm">
+                  <?php
+                    if (isset($_SESSION['userUid'])){
+                      echo $_SESSION['userUid'];
+                    }
+                    else {
+                      echo "Welcome";
+                    }
+                   ?>
+                </span>
                 <h2 class="heading">Great Foods & Drinks</h2>
                 <?php
                   if (isset($_SESSION['userId'])) {
